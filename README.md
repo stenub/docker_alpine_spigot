@@ -33,10 +33,10 @@ Please have a look at
 and you will find yourself comfortable with the known spigot config files. Edit them according to your
 wishes and enjoy! ;-) 
 
-## Spigot is outdated
+## If Spigot is outdated
 
-If the spigot server is outdated, you can pm me/write email/open an issue on github or generate a new
-image by getting the Dockerfile and building an image on your own. Just run
+If the spigot-*.jar contained in the image is outdated, you can pm me/write email/open an issue on github
+or generate a new image by getting the Dockerfile and building an image on your own. Just run
 
 ``` bash
 docker build -t 'your_image_name'  .
