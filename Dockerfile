@@ -17,6 +17,8 @@ RUN apk --no-cache add git wget && \
 
 WORKDIR /spigot
 
+VOLUME /spigot
+
 EXPOSE 25565
 
 CMD java -Xms512M -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot-*.jar
